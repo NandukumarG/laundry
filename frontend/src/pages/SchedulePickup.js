@@ -2,11 +2,6 @@ import clothingTypes from "../catalog.json";
 import React, { useState, useMemo, useCallback } from "react";
 import {
   Truck,
-  Calendar,
-  MapPin,
-  DollarSign,
-  ShoppingBag,
-  X,
   ShirtIcon,
   ShoppingBagIcon,
   Baby,
@@ -129,25 +124,6 @@ const SchedulePickup = () => {
     [formData.serviceType]
   );
 
-  // Add clothing item to list
-  const addClothingItem = useCallback(() => {
-    if (clothingItem && !formData.clothingItems.includes(clothingItem)) {
-      setFormData((prev) => ({
-        ...prev,
-        clothingItems: [...prev.clothingItems, clothingItem],
-      }));
-      setClothingItem("");
-    }
-  }, [clothingItem, formData.clothingItems]);
-
-  // Remove clothing item
-  const removeClothingItem = useCallback((item) => {
-    setFormData((prev) => ({
-      ...prev,
-      clothingItems: prev.clothingItems.filter((i) => i !== item),
-    }));
-  }, []);
-
   // Update clothing item count
   const updateClothingCount = useCallback((section, itemName, count) => {
     setFormData((prev) => ({
@@ -180,7 +156,7 @@ const SchedulePickup = () => {
     );
 
     return sectionPrices;
-  }, [formData.serviceType, formData.clothingItems, getCurrentPrice]);
+  }, [formData.clothingItems, getCurrentPrice]);
 
   // Render clothing type inputs for a section
   const renderClothingSection = (section, icon) => {

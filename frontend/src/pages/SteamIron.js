@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar.js";
@@ -9,12 +9,6 @@ import deliver from "../assets/ServicesImg/deliver.png";
 import steamiron from "../assets/ServicesImg/steamiron.png";
 
 function SteamIron() {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
-
   return (
     <>
       {/* Navbar */}

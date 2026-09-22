@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "../components/Navbar.js";
 import Footer from "../components/Footer";
@@ -9,12 +9,6 @@ import washIronNowThatsSlickImg from "../assets/ServicesImg/wash-iron-nowThatsSl
 import deliver from "../assets/ServicesImg/deliver.png";
 
 const WashIron = () => {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
-
   return (
     <>
       {/* Navbar */}
