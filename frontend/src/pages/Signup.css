@@ -1,0 +1,19 @@
+.bg-info-subtle {
+  background-color: #bce3fa;
+}
+
+.form-control {
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.bg-container {
+  position: relative;
+  background: url("../assets/doodle-bgg.avif");
+}
+
+.custom-rounded {
+  border-radius: 50px !important; /* Adjust as needed */
+  overflow: hidden; /* Prevents child elements from ignoring the radius */
+}

@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.*.example
+**/node_modules/
+**/build/
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.idea/
+**/uploads/*
+!**/uploads/.gitkeep
+legacy/
+.local/
+*.log

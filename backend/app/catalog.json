@@ -1,0 +1,406 @@
+{
+  "men": [
+    {
+      "name": "Half-Sleeve Shirt",
+      "prices": {
+        "Wash & Fold": 25,
+        "Wash & Iron": 40,
+        "Steam Iron": 20,
+        "Dry Cleaning": 75
+      }
+    },
+    {
+      "name": "Half-Sleeve T-Shirt",
+      "prices": {
+        "Wash & Fold": 25,
+        "Wash & Iron": 40,
+        "Steam Iron": 20,
+        "Dry Cleaning": 75
+      }
+    },
+    {
+      "name": "Full-Sleeve T-Shirt",
+      "prices": {
+        "Wash & Fold": 25,
+        "Wash & Iron": 40,
+        "Steam Iron": 20,
+        "Dry Cleaning": 75
+      }
+    },
+    {
+      "name": "Full-Sleeve Shirt",
+      "prices": {
+        "Wash & Fold": 30,
+        "Wash & Iron": 50,
+        "Steam Iron": 20,
+        "Dry Cleaning": 80
+      }
+    },
+    {
+      "name": "Jacket",
+      "prices": {
+        "Wash & Fold": 140,
+        "Wash & Iron": 80,
+        "Steam Iron": 110,
+        "Dry Cleaning": 300
+      }
+    },
+    {
+      "name": "Flak Jacket",
+      "prices": {
+        "Wash & Fold": 150,
+        "Wash & Iron": 80,
+        "Steam Iron": 100,
+        "Dry Cleaning": 250
+      }
+    },
+    {
+      "name": "Trousers",
+      "prices": {
+        "Wash & Fold": 40,
+        "Wash & Iron": 55,
+        "Steam Iron": 30,
+        "Dry Cleaning": 140
+      }
+    },
+    {
+      "name": "Jeans",
+      "prices": {
+        "Wash & Fold": 50,
+        "Wash & Iron": 60,
+        "Steam Iron": 35,
+        "Dry Cleaning": 150
+      }
+    },
+    {
+      "name": "Shorts",
+      "prices": {
+        "Wash & Fold": 25,
+        "Wash & Iron": 45,
+        "Steam Iron": 25,
+        "Dry Cleaning": 125
+      }
+    },
+    {
+      "name": "Sweatshirt",
+      "prices": {
+        "Wash & Fold": 75,
+        "Wash & Iron": 100,
+        "Steam Iron": 75,
+        "Dry Cleaning": 175
+      }
+    },
+    {
+      "name": "Trackpant",
+      "prices": {
+        "Wash & Fold": 40,
+        "Wash & Iron": 60,
+        "Steam Iron": 40,
+        "Dry Cleaning": 140
+      }
+    },
+    {
+      "name": "Kurta",
+      "prices": {
+        "Wash & Fold": 40,
+        "Wash & Iron": 55,
+        "Steam Iron": 25,
+        "Dry Cleaning": 125
+      }
+    }
+  ],
+  "women": [
+    {
+      "name": "Half-Sleeve Shirt",
+      "prices": {
+        "Wash & Fold": 25,
+        "Wash & Iron": 40,
+        "Steam Iron": 20,
+        "Dry Cleaning": 85
+      }
+    },
+    {
+      "name": "Half-Sleeve T-Shirt",
+      "prices": {
+        "Wash & Fold": 25,
+        "Wash & Iron": 40,
+        "Steam Iron": 15,
+        "Dry Cleaning": 85
+      }
+    },
+    {
+      "name": "Full-Sleeve T-Shirt",
+      "prices": {
+        "Wash & Fold": 25,
+        "Wash & Iron": 40,
+        "Steam Iron": 20,
+        "Dry Cleaning": 75
+      }
+    },
+    {
+      "name": "Full-Sleeve Shirt",
+      "prices": {
+        "Wash & Fold": 30,
+        "Wash & Iron": 50,
+        "Steam Iron": 20,
+        "Dry Cleaning": 80
+      }
+    },
+    {
+      "name": "Jacket",
+      "prices": {
+        "Wash & Fold": 140,
+        "Wash & Iron": 175,
+        "Steam Iron": 150,
+        "Dry Cleaning": 300
+      }
+    },
+    {
+      "name": "Bathrobe",
+      "prices": {
+        "Wash & Fold": 75,
+        "Wash & Iron": 90,
+        "Steam Iron": 70,
+        "Dry Cleaning": 125
+      }
+    },
+    {
+      "name": "Trousers",
+      "prices": {
+        "Wash & Fold": 40,
+        "Wash & Iron": 60,
+        "Steam Iron": 30,
+        "Dry Cleaning": 120
+      }
+    },
+    {
+      "name": "Jeggings",
+      "prices": {
+        "Wash & Fold": 50,
+        "Wash & Iron": 70,
+        "Steam Iron": 40,
+        "Dry Cleaning": 150
+      }
+    },
+    {
+      "name": "Petticoat",
+      "prices": {
+        "Wash & Fold": 25,
+        "Wash & Iron": 40,
+        "Steam Iron": 20,
+        "Dry Cleaning": 110
+      }
+    },
+    {
+      "name": "Jumpsuit",
+      "prices": {
+        "Wash & Fold": 75,
+        "Wash & Iron": 100,
+        "Steam Iron": 70,
+        "Dry Cleaning": 175
+      }
+    },
+    {
+      "name": "Saree",
+      "prices": {
+        "Wash & Fold": 50,
+        "Wash & Iron": 90,
+        "Steam Iron": 80,
+        "Dry Cleaning": 500
+      }
+    },
+    {
+      "name": "Night Gown",
+      "prices": {
+        "Wash & Fold": 50,
+        "Wash & Iron": 60,
+        "Steam Iron": 40,
+        "Dry Cleaning": 250
+      }
+    }
+  ],
+  "kids": [
+    {
+      "name": "Half-Sleeve Shirt",
+      "prices": {
+        "Wash & Fold": 15,
+        "Wash & Iron": 25,
+        "Steam Iron": 10,
+        "Dry Cleaning": 50
+      }
+    },
+    {
+      "name": "Half-Sleeve T-Shirt",
+      "prices": {
+        "Wash & Fold": 15,
+        "Wash & Iron": 25,
+        "Steam Iron": 10,
+        "Dry Cleaning": 50
+      }
+    },
+    {
+      "name": "Trousers",
+      "prices": {
+        "Wash & Fold": 20,
+        "Wash & Iron": 30,
+        "Steam Iron": 15,
+        "Dry Cleaning": 60
+      }
+    },
+    {
+      "name": "Jeans",
+      "prices": {
+        "Wash & Fold": 20,
+        "Wash & Iron": 30,
+        "Steam Iron": 15,
+        "Dry Cleaning": 60
+      }
+    },
+    {
+      "name": "Frock",
+      "prices": {
+        "Wash & Fold": 25,
+        "Wash & Iron": 40,
+        "Steam Iron": 20,
+        "Dry Cleaning": 80
+      }
+    },
+    {
+      "name": "Kurta",
+      "prices": {
+        "Wash & Fold": 15,
+        "Wash & Iron": 25,
+        "Steam Iron": 15,
+        "Dry Cleaning": 150
+      }
+    },
+    {
+      "name": "Jumpsuit",
+      "prices": {
+        "Wash & Fold": 20,
+        "Wash & Iron": 30,
+        "Steam Iron": 15,
+        "Dry Cleaning": 80
+      }
+    },
+    {
+      "name": "Sweater",
+      "prices": {
+        "Wash & Fold": 25,
+        "Wash & Iron": 45,
+        "Steam Iron": 25,
+        "Dry Cleaning": 100
+      }
+    },
+    {
+      "name": "Shorts",
+      "prices": {
+        "Wash & Fold": 15,
+        "Wash & Iron": 25,
+        "Steam Iron": 15,
+        "Dry Cleaning": 150
+      }
+    },
+    {
+      "name": "Jacket",
+      "prices": {
+        "Wash & Fold": 100,
+        "Wash & Iron": 125,
+        "Steam Iron": 95,
+        "Dry Cleaning": 200
+      }
+    }
+  ],
+  "household": [
+    {
+      "name": "Bedsheet",
+      "prices": {
+        "Wash & Fold": 50,
+        "Wash & Iron": 60,
+        "Steam Iron": 40,
+        "Dry Cleaning": 150
+      }
+    },
+    {
+      "name": "Blanket",
+      "prices": {
+        "Wash & Fold": 100,
+        "Wash & Iron": 120,
+        "Steam Iron": 90,
+        "Dry Cleaning": 200
+      }
+    },
+    {
+      "name": "Curtain",
+      "prices": {
+        "Wash & Fold": 40,
+        "Wash & Iron": 50,
+        "Steam Iron": 30,
+        "Dry Cleaning": 240
+      }
+    },
+    {
+      "name": "Pillow Cover",
+      "prices": {
+        "Wash & Fold": 20,
+        "Wash & Iron": 30,
+        "Steam Iron": 20,
+        "Dry Cleaning": 80
+      }
+    },
+    {
+      "name": "Duvet",
+      "prices": {
+        "Wash & Fold": 120,
+        "Wash & Iron": 130,
+        "Steam Iron": 110,
+        "Dry Cleaning": 250
+      }
+    },
+    {
+      "name": "Table Cloth",
+      "prices": {
+        "Wash & Fold": 35,
+        "Wash & Iron": 45,
+        "Steam Iron": 25,
+        "Dry Cleaning": 150
+      }
+    },
+    {
+      "name": "Carpet",
+      "prices": {
+        "Wash & Fold": 150,
+        "Wash & Iron": 160,
+        "Steam Iron": 120,
+        "Dry Cleaning": 250
+      }
+    },
+    {
+      "name": "Cushion Cover",
+      "prices": {
+        "Wash & Fold": 30,
+        "Wash & Iron": 40,
+        "Steam Iron": 20,
+        "Dry Cleaning": 90
+      }
+    },
+    {
+      "name": "Towel",
+      "prices": {
+        "Wash & Fold": 25,
+        "Wash & Iron": 35,
+        "Steam Iron": 20,
+        "Dry Cleaning": 60
+      }
+    },
+    {
+      "name": "Sofa Cover",
+      "prices": {
+        "Wash & Fold": 80,
+        "Wash & Iron": 90,
+        "Steam Iron": 70,
+        "Dry Cleaning": 280
+      }
+    }
+  ]
+}

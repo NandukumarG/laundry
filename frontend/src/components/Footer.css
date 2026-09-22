@@ -1,0 +1,22 @@
+.bi {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.Footer-order {
+  margin-left: 20px;
+  text-decoration: none;
+}
+.text-lght {
+  text-decoration: none;
+  color: #dbdbd9;
+}
+.Footer-order li {
+  padding-bottom: 10px;
+}
+
+.copyright {
+  margin-bottom: -10px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
