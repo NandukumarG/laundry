@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 import "./Navbar.css";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { User, UserCircle, CircleUser } from "lucide-react";
+import { User } from "lucide-react";
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -76,8 +76,8 @@ const Navbar = () => {
 
               {/* Services Dropdown */}
               <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle fw-regular btn"
+                <button
+                  className="nav-link dropdown-toggle fw-regular btn border-0 bg-transparent"
                   type="button"
                   id="servicesDropdown"
                   aria-expanded={isDropdownOpen}
@@ -85,7 +85,7 @@ const Navbar = () => {
                   ref={dropdownRef}
                 >
                   Services
-                </a>
+                </button>
                 <ul
                   className={`dropdown-menu ${isDropdownOpen ? "show" : ""}`}
                   aria-labelledby="servicesDropdown"

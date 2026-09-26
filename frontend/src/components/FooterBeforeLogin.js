@@ -25,17 +25,17 @@ const Footer = () => {
               <h5>About</h5>
               <ul className="list-unstyled mt-4">
                 <li><a href="#contact" className="text-lght">Contact Us</a></li>
-                <li><a href="#" className="text-lght">Terms and Conditions</a></li>
-                <li><a href="#" className="text-lght">Privacy Policy</a></li>
+                <li><a href="#terms" className="text-lght">Terms and Conditions</a></li>
+                <li><a href="#privacy" className="text-lght">Privacy Policy</a></li>
               </ul>
             </div>
             <div className="col-md-2 mt-4 Footer-order">
               <h5>Connect With Us</h5>
               <div className="d-flex gap-3 mt-4">
-                <a href="#" className="text-lght"><i className="bi bi-facebook"></i></a>
-                <a href="#" className="text-lght"><i className="bi bi-instagram"></i></a>
-                <a href="#" className="text-lght"><i className="bi bi-twitter"></i></a>
-                <a href="#" className="text-lght"><i className="bi bi-youtube"></i></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-lght" aria-label="Facebook"><i className="bi bi-facebook"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-lght" aria-label="Instagram"><i className="bi bi-instagram"></i></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-lght" aria-label="Twitter"><i className="bi bi-twitter"></i></a>
+                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-lght" aria-label="YouTube"><i className="bi bi-youtube"></i></a>
               </div>
             </div>
           </div>

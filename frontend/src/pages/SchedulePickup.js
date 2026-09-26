@@ -42,7 +42,6 @@ const SchedulePickup = () => {
     deliveryTime: "",
   });
 
-  const [clothingItem, setClothingItem] = useState("");
   const [errors, setErrors] = useState({});
   const [showPriceModal, setShowPriceModal] = useState(false);
   const [submitStatus, setSubmitStatus] = useState({

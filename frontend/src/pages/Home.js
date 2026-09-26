@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import axios from "../api";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import Footer from "../components/Footer";
@@ -68,8 +67,6 @@ const HomePage = () => {
     email: "",
     message: "",
   });
-
-  const [status, setStatus] = useState("");
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });

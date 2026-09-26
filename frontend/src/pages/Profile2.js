@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { Container, Row, Col, Form, Button, Nav, Image } from "react-bootstrap";
 import {
   FaHome,
@@ -7,7 +6,6 @@ import {
   FaClipboardList,
   FaHistory,
   FaSignOutAlt,
-  FaEdit,
   FaUser,
   FaEnvelope,
   FaUpload,
@@ -24,8 +22,6 @@ const ProfilePage2 = () => {
     avatar: profileImg,
   });
 
-  const navigate = useNavigate();
-
   const handleLogout = () => {
     // Clear auth data
     localStorage.removeItem("token");
@@ -37,8 +33,6 @@ const ProfilePage2 = () => {
     window.history.go(-(window.history.length - 1));
     window.location.href = "/Login";
   };
-
-  const [previewUrl, setPreviewUrl] = useState(null);
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
@@ -61,8 +55,7 @@ const ProfilePage2 = () => {
     // Create a preview URL for the image
     const reader = new FileReader();
     reader.onload = () => {
-      setPreviewUrl(reader.result);
-      // Also update the user info avatar
+      // Update the user info avatar
       setUserInfo({
         ...userInfo,
         avatar: reader.result,

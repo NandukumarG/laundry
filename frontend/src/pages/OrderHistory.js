@@ -7,10 +7,7 @@ import {
   Eye,
   Calendar,
   MapPin,
-  DollarSign,
   RefreshCw,
-  CheckCircle,
-  XCircle,
   AlertCircle,
 } from "lucide-react";
 import {

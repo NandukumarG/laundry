@@ -3,7 +3,6 @@ import {
   Truck,
   Package,
   Clock,
-  Calendar,
   MapPin,
   DollarSign,
   CheckCircle,
@@ -33,7 +32,6 @@ import {
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import axios from "../api";
-import { FaRupeeSign } from "react-icons/fa";
 
 // Import clothing types data
 import clothingTypes from "../catalog.json";
@@ -49,7 +47,6 @@ const OrderStatus = () => {
   const [cancelReason, setCancelReason] = useState("");
 
   // Edit delivery state
-  const [isEditingDelivery, setIsEditingDelivery] = useState(false);
   const [showEditModal, setShowEditModal] = useState(false);
   const [deliveryInfo, setDeliveryInfo] = useState({
     address: "",
@@ -91,6 +88,7 @@ const OrderStatus = () => {
 
       return () => clearInterval(statusInterval);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [orderData]);
 
   // Function to calculate current status based on time intervals
@@ -282,6 +280,7 @@ const OrderStatus = () => {
     } finally {
       setLoading(false);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Handle search submission
